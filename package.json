@@ -13,11 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/mcksyrek/news-fanout.git"
   },
-  "author": "",
+  "author": "mcksyrek",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mcksyrek/news-fanout/issues"
-  },
   "homepage": "https://github.com/mcksyrek/news-fanout#readme",
   "type": "module"
 }
