@@ -1,13 +1,18 @@
 {
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.37.0"
   },
   "name": "news-fanout",
   "version": "1.0.0",
   "description": "A serverless pipeline for ingesting breaking news from public news feeds (RSS), publishing them to Amazon SNS, distributing via SQS, and processing asynchronously with AWS Lambda.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
